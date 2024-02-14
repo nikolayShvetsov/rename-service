@@ -9,7 +9,8 @@ class RenameFile
     public function getNewTitle(string $fileName): string
     {
         $path_info = pathinfo($fileName);
-        $result = strtoupper($fileName) . '.' . $path_info['extension'];
+        $name = explode('.', $fileName, 2)[0];
+        $result = strtoupper($name) . '.' . $path_info['extension'];
 
         return $result;
     }

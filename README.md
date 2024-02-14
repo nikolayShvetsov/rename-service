@@ -12,7 +12,5 @@ composer require nikolay-shvetsov/rename-service
 
 ## Использование
 
-<?php
-
 $renamiator = new RenameFile();
 echo $renamiator->getNewTitle('filename.txt')' // FILENAME.txt

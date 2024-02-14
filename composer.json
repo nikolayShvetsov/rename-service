@@ -3,7 +3,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "NikolayShvetsov\\RenameService\\": "src/"
+            "NikolayShvetsov\\RenameService\\": "src/App"
         }
     },
     "require": {}

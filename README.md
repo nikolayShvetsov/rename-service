@@ -1,3 +1,18 @@
-# PHP_2023
+# Пакет для изменения названия файлов
 
-https://otus.ru/lessons/razrabotchik-php/?utm_source=github&utm_medium=free&utm_campaign=otus
+Названия файлов меняет на верхний регистр
+
+## Требования
+
+- PHP 8.2
+
+## Установка
+
+composer require nikolay-shvetsov/rename-service
+
+## Использование
+
+<?php
+
+$renamiator = new RenameFile();
+echo $renamiator->getNewTitle('filename.txt')' // FILENAME.txt

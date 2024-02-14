@@ -1,0 +1,10 @@
+{
+    "name": "nikolay-shvetsov/rename-service",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "NikolayShvetsov\\RenameService\\": "src/"
+        }
+    },
+    "require": {}
+}

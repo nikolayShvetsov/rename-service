@@ -6,5 +6,7 @@
             "NikolayShvetsov\\RenameService\\": "src/App"
         }
     },
-    "require": {}
+    "require": {
+        "php": "8.2.*"
+    }
 }
